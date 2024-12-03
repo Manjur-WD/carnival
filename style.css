@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Monoton&family=Roboto+Slab:wght@100..900&display=swap');
+
+.lake-club-winter-carnuival {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(255, 255, 255, 0.274)), url(./24783.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.font-alfa {
+    font-family: Alfa Slab One, "serif"
+}
+
+.font-monoton {
+    font-family: Monoton, "sans-serif"
+}
+
+.font-roboto {
+    font-family: Roboto Slab, "serif"
+}
+
+.heading-text {
+    background: url(./209194.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: clamp(1rem, 10vw, 4rem);
+    filter: brightness(2);
+}
+
+.custom-next-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 99;
+}
+
+.custom-prev-button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 99;
+}
+
+.swiper-slide {
+    text-align: center;
+
+}
+
+.swiper-slide img {
+    height: 500px;
+    width: auto;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, transparent 80%, rgba(0, 0, 0, 0.5));
+    filter: brightness(1.1);
+}
+
+.swiper-pagination-bullet {
+    background: white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: gold !important;
+}
+
+
+@media(max-width: 600px) {
+    .swiper{
+        transform: translateX(-20px);
+    }
+    .swiper-slide img {
+        height: 300px;
+    }
+
+    .swiper-slide-active {
+        scale: 1.2;
+        transform: translateX(-40px) !important;
+    }
+    .custom-prev-button {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        z-index: 99;
+    }
+}
+
