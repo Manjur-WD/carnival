@@ -2,6 +2,8 @@ Fancybox.bind("[data-fancybox]", {
   // Your custom options
 });
 
+
+
 const swiper = new Swiper(".avertising-carousel .swiper", {
   effect: "coverflow",
   loop: true,
