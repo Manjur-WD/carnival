@@ -54,7 +54,6 @@
     width: auto;
     -webkit-box-reflect: below 5px linear-gradient(transparent, transparent 80%, rgba(0, 0, 0, 0.5));
     filter: brightness(1.1);
-    border-radius: 10px;
 }
 
 .swiper-pagination-bullet {
@@ -79,7 +78,8 @@
     opacity: 0.7;
 }
 
-.swiper-slide-prev a,.swiper-slide-next a{
+.swiper-slide-prev a,
+.swiper-slide-next a {
     pointer-events: none;
 }
 
@@ -90,6 +90,9 @@
 .swiper-slide-active {
     scale: 1.1;
 }
+
+
+
 
 
 @media(max-width: 600px) {

@@ -26,10 +26,10 @@ const swiper = new Swiper(".avertising-carousel .swiper", {
   },
 
   // Autoplay settings
-//   autoplay: {
-//     delay: 3000, // Time between slide transitions in ms
-//     disableOnInteraction: false, // Continue autoplay after interaction
-//   },
+  autoplay: {
+    delay: 3000, // Time between slide transitions in ms
+    disableOnInteraction: false, // Continue autoplay after interaction
+  },
 
   // Breakpoints for responsiveness
   breakpoints: {
@@ -41,13 +41,13 @@ const swiper = new Swiper(".avertising-carousel .swiper", {
   },
 });
 
-gsap.from(".heading-text",{
-    scaleX: 0,
-    delay: 1
-})
+gsap.from(".heading-text", {
+  scaleX: 0,
+  delay: 0.5,
+});
 
-gsap.from(".avertising-carousel",{
-    y: 200,
-    delay: 1,
-    opacity: 0
-})
+gsap.from(".avertising-carousel", {
+  y: 200,
+  delay: 0.8,
+  opacity: 0,
+});
