@@ -26,10 +26,10 @@ const swiper = new Swiper(".avertising-carousel .swiper", {
   },
 
   // Autoplay settings
-  autoplay: {
-    delay: 3000, // Time between slide transitions in ms
-    disableOnInteraction: false, // Continue autoplay after interaction
-  },
+//   autoplay: {
+//     delay: 3000, // Time between slide transitions in ms
+//     disableOnInteraction: false, // Continue autoplay after interaction
+//   },
 
   // Breakpoints for responsiveness
   breakpoints: {

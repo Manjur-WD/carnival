@@ -79,6 +79,10 @@
     opacity: 0.7;
 }
 
+.swiper-slide-prev a,.swiper-slide-next a{
+    pointer-events: none;
+}
+
 .swiper-slide-next img {
     opacity: 0.7;
 }
@@ -90,7 +94,8 @@
 
 @media(max-width: 600px) {
     .swiper {
-        transform: translateX(-20px);
+        transform: translateX(-30px);
+        width: 100vw;
     }
 
     .swiper-slide img {
