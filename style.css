@@ -22,7 +22,7 @@
     background: url(./209194.gif);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: clamp(1rem, 10vw, 4rem);
+    font-size: clamp(1rem, 5vw, 4rem);
     filter: brightness(2);
 }
 
@@ -53,7 +53,7 @@
     height: 500px;
     width: auto;
     -webkit-box-reflect: below 5px linear-gradient(transparent, transparent 80%, rgba(0, 0, 0, 0.5));
-    filter: brightness(1.1);
+    filter: contrast(1.5);
 }
 
 .swiper-pagination-bullet {
@@ -95,7 +95,7 @@
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: clamp(1rem, 5vw ,1.5rem);
+    font-size: clamp(0.8rem, 4vw ,1.5rem);
     padding: 10px 25px;
     border: 2px solid gold;
     box-shadow: 0 0 10px gold;
@@ -110,12 +110,12 @@
     }
 
     .swiper-slide img {
-        height: 300px;
+        height: 400px;
     }
 
     .swiper-slide-active {
         scale: 1.2;
-        transform: translateX(-30px) !important;
+        transform: translateX(-65px) !important;
     }
 
     .custom-prev-button {
